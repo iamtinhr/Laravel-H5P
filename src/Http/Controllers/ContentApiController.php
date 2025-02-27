@@ -50,8 +50,10 @@ class ContentApiController extends BaseController implements ContentApiSwagger
 
     public function update(ContentUpdateRequest $request, int $id): JsonResponse
     {
+        // Sanitize params
+        $params = str_replace('\\"', "'", $request->get('params'));
         try {
-            $contentId = $this->contentRepository->edit($id, $request->get('title'), $request->get('library'), $request->get('params'), $request->get('nonce'));
+            $contentId = $this->contentRepository->edit($id, $request->get('title'), $request->get('library'), $params, $request->get('nonce'));
         } catch (Exception $error) {
             return $this->sendError($error->getMessage(), 422);
         }
@@ -61,8 +63,10 @@ class ContentApiController extends BaseController implements ContentApiSwagger
 
     public function store(ContentCreateRequest $request): JsonResponse
     {
+        // Sanitize params
+        $params = str_replace('\\"', "'", $request->get('params'));
         try {
-            $contentId = $this->contentRepository->create($request->get('title'), $request->get('library'), $request->get('params'), $request->get('nonce'));
+            $contentId = $this->contentRepository->create($request->get('title'), $request->get('library'), $params, $request->get('nonce'));
         } catch (Exception $error) {
             return $this->sendError($error->getMessage(), 422);
         }
