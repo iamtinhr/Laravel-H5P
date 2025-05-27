@@ -1,17 +1,17 @@
 {
-    "name": "brnysn/laravel-h5p",
+    "name": "iamtinhr/laravel-h5p",
     "description": "H5P integration for Laravel without any additional dependencies.",
     "type": "package",
     "require": {
-        "php": ">=7.4",
-        "bensampo/laravel-enum": ">=2.0",
-        "laravel/framework": "^8|^9",
-        "h5p/h5p-core": "^1|dev-master",
-        "h5p/h5p-editor": "^1|dev-master"
+        "php": ">=8.1",
+        "bensampo/laravel-enum": "^6.0",
+        "laravel/framework": "^10.0",
+        "h5p/h5p-core": "^1.24|dev-master",
+        "h5p/h5p-editor": "^1.24|dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",
-        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0",
         "laravel/legacy-factories": "^1.0.4",
         "guzzlehttp/guzzle": "^7"
     },

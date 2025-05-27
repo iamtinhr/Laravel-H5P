@@ -32,13 +32,11 @@ The lib allows headlessly
 
 See [Swagger](https://escolalms.github.io/H5P/) documented endpoints.
 
-Some [tests](tests) can also be a great point of start.
-
 To play the content you can use [EscolaLMS H5P Player](https://github.com/EscolaLMS/H5P-player)
 
 ## Install
 
-1. `composer require brnysn/headless-h5p`
+1. `composer require iamtinhr/laravel-h5p`
 2. `php artisan migrate`
 3. `php artisan h5p:storage-link` see below 
 
@@ -68,9 +66,7 @@ location ~* \.(eot|ttf|woff|woff2|jpg|jpeg|gif|png|wav|mp3|mp4|mov|ogg|webv)$ {
 
 ### Authorisation 
 
-Most of the endpoints require authorisation, this is possible with laravel passport 
-
-There is a [seeder](database/seeders/PermissionTableSeeder.php) to must be run in order to authrize 
+Most of the endpoints require authorisation, this is possible with laravel passport
 
 User model is taken from [Auth](https://github.com/EscolaLMS/Auth) package. 
 
@@ -79,7 +75,7 @@ User model is taken from [Auth](https://github.com/EscolaLMS/Auth) package.
 To seed content and library 
 
 ```
-php artisan db:seed --class="\EscolaLms\HeadlessH5P\Database\Seeders\ContentLibrarySeeder"
+php artisan db:seed --class="\Brnysn\LaravelH5P\Database\Seeders\ContentLibrarySeeder"
 ```
 
 You can seed library and content with build-in seeders as command that are accessible with

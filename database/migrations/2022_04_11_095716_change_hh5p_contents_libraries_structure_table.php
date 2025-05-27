@@ -15,30 +15,6 @@ class ChangeHh5pContentsLibrariesStructureTable extends Migration
      */
     public function up()
     {
-        if (strpos(DB::connection()->getName(), 'sqlite') !== FALSE) { 
-            return;
-        }
-//        Schema::table('hh5p_contents_libraries', function (Blueprint $table) {
-//            $table->dropPrimary('hh5p_contents_libraries_pkey');
-//            $table->unique(['content_id', 'library_id', 'dependency_type'], 'hh5p_contents_libraries_unique_key');
-//        });
-//        Schema::table('hh5p_contents_libraries', function (Blueprint $table) {
-//            $table->id();
-//        });
-//        Schema::table('hh5p_libraries_languages', function (Blueprint $table) {
-//            $table->dropPrimary('hh5p_libraries_languages_pkey');
-//            $table->unique(['library_id', 'language_code'], 'hh5p_libraries_languages_unique_key');
-//        });
-//        Schema::table('hh5p_libraries_languages', function (Blueprint $table) {
-//            $table->id();
-//        });
-//        Schema::table('hh5p_libraries_dependencies', function (Blueprint $table) {
-//            $table->dropPrimary('hh5p_libraries_dependencies_pkey');
-//            $table->unique(['library_id', 'required_library_id'], 'hh5p_libraries_dependencies_unique_key');
-//        });
-//        Schema::table('hh5p_libraries_dependencies', function (Blueprint $table) {
-//            $table->id();
-//        });
     }
 
     /**
@@ -48,7 +24,7 @@ class ChangeHh5pContentsLibrariesStructureTable extends Migration
      */
     public function down()
     {
-        if (strpos(DB::connection()->getName(), 'sqlite') !== FALSE) { 
+        if (strpos(DB::connection()->getName(), 'sqlite') !== FALSE) {
             return;
         }
         Schema::table('hh5p_contents_libraries', function (Blueprint $table) {

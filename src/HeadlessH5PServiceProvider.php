@@ -67,12 +67,12 @@ class HeadlessH5PServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__ . '/routes.php');
         //$this->loadFactoriesFrom(__DIR__ . '/../database/factories');
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'h5p');
-        $this->loadJsonTranslationsFrom(__DIR__.'/../resources/lang');
-        $this->mergeConfigFrom(__DIR__.'/../config/hh5p.php', 'hh5p');
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'h5p');
+        $this->loadJsonTranslationsFrom(__DIR__ . '/../resources/lang');
+        $this->mergeConfigFrom(__DIR__ . '/../config/hh5p.php', 'hh5p');
         // Load configs
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();

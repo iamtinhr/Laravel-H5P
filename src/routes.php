@@ -24,16 +24,12 @@ Route::group(['middleware' => ['auth:api', 'api', H5PLangMiddleware::class], 'pr
         Route::get('content', [ContentApiController::class, 'index'])->name('hh5p.content.index');
         Route::get('content/{id}/export', [ContentApiController::class, 'download'])->name('hh5p.content.export');
         Route::get('content/{id}', [ContentApiController::class, 'show'])->name('hh5p.content.admin.show');
-        Route::post('files', FilesApiController::class)->name('hh5p.files.upload')->middleware('signed');;
+        Route::post('files', FilesApiController::class)->name('hh5p.files.upload')->middleware('signed');
         Route::delete('unused', [ContentApiController::class, 'deleteUnused'])->name('hh5p.content.deleteUnused');
     });
 
     Route::group(['prefix' => 'hh5p'], function () {
         Route::get('content/{uuid}', [ContentApiController::class, 'frontShow'])->name('hh5p.content.show')->withoutMiddleware('auth:api');
-
-        Route::get('/', function () {
-            return 'Hello World';
-        })->name('hh5p.index'); // DO not remove this is needed as prefix for editor ajax calls
     });
 });
 
