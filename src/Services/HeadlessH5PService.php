@@ -1,11 +1,11 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Services;
+namespace Iamtinhr\LaravelH5P\Services;
 
-use Brnysn\LaravelH5P\Exceptions\H5PException;
-use Brnysn\LaravelH5P\Helpers\MargeFiles;
-use Brnysn\LaravelH5P\Models\H5PLibrary;
-use Brnysn\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
+use Iamtinhr\LaravelH5P\Exceptions\H5PException;
+use Iamtinhr\LaravelH5P\Helpers\MargeFiles;
+use Iamtinhr\LaravelH5P\Models\H5PLibrary;
+use Iamtinhr\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
 use H5PContentValidator;
 use H5PCore;
 use H5peditor;

@@ -1,17 +1,17 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Repositories;
+namespace Iamtinhr\LaravelH5P\Repositories;
 
-use Brnysn\LaravelH5P\Repositories\Criteria\Criterion;
-use Brnysn\LaravelH5P\Dtos\ContentFilterCriteriaDto;
-use Brnysn\LaravelH5P\Exceptions\H5PException;
-use Brnysn\LaravelH5P\Helpers\Helpers;
-use Brnysn\LaravelH5P\Models\H5PContent;
-use Brnysn\LaravelH5P\Models\H5PLibrary;
-use Brnysn\LaravelH5P\Models\H5PTempFile;
-use Brnysn\LaravelH5P\Repositories\Contracts\H5PContentRepositoryContract;
-use Brnysn\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
-use Brnysn\LaravelH5P\Traits\QueryExtendable;
+use Iamtinhr\LaravelH5P\Repositories\Criteria\Criterion;
+use Iamtinhr\LaravelH5P\Dtos\ContentFilterCriteriaDto;
+use Iamtinhr\LaravelH5P\Exceptions\H5PException;
+use Iamtinhr\LaravelH5P\Helpers\Helpers;
+use Iamtinhr\LaravelH5P\Models\H5PContent;
+use Iamtinhr\LaravelH5P\Models\H5PLibrary;
+use Iamtinhr\LaravelH5P\Models\H5PTempFile;
+use Iamtinhr\LaravelH5P\Repositories\Contracts\H5PContentRepositoryContract;
+use Iamtinhr\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
+use Iamtinhr\LaravelH5P\Traits\QueryExtendable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;

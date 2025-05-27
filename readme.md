@@ -75,7 +75,7 @@ User model is taken from [Auth](https://github.com/EscolaLMS/Auth) package.
 To seed content and library 
 
 ```
-php artisan db:seed --class="\Brnysn\LaravelH5P\Database\Seeders\ContentLibrarySeeder"
+php artisan db:seed --class="\Iamtinhr\LaravelH5P\Database\Seeders\ContentLibrarySeeder"
 ```
 
 You can seed library and content with build-in seeders as command that are accessible with

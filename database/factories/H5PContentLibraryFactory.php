@@ -1,10 +1,10 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Database\Factories;
+namespace Iamtinhr\LaravelH5P\Database\Factories;
 
-use Brnysn\LaravelH5P\Models\H5PContent;
-use Brnysn\LaravelH5P\Models\H5PContentLibrary;
-use Brnysn\LaravelH5P\Models\H5PLibrary;
+use Iamtinhr\LaravelH5P\Models\H5PContent;
+use Iamtinhr\LaravelH5P\Models\H5PContentLibrary;
+use Iamtinhr\LaravelH5P\Models\H5PLibrary;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class H5PContentLibraryFactory extends Factory

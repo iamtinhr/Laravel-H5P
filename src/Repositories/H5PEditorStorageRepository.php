@@ -1,13 +1,13 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Repositories;
+namespace Iamtinhr\LaravelH5P\Repositories;
 
 use H5peditorStorage;
-use Brnysn\LaravelH5P\Models\H5PLibrary;
-use Brnysn\LaravelH5P\Models\H5PLibraryLanguage;
-use Brnysn\LaravelH5P\Models\H5PContent;
-use Brnysn\LaravelH5P\Models\H5PTempFile;
-use Brnysn\LaravelH5P\Helpers\Helpers;
+use Iamtinhr\LaravelH5P\Models\H5PLibrary;
+use Iamtinhr\LaravelH5P\Models\H5PLibraryLanguage;
+use Iamtinhr\LaravelH5P\Models\H5PContent;
+use Iamtinhr\LaravelH5P\Models\H5PTempFile;
+use Iamtinhr\LaravelH5P\Helpers\Helpers;
 
 /**
  * A defined interface for the editor to communicate with the database of the

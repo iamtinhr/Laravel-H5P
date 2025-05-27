@@ -1,6 +1,6 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Repositories\Criteria;
+namespace Iamtinhr\LaravelH5P\Repositories\Criteria;
 
 use Illuminate\Database\Eloquent\Builder;
 

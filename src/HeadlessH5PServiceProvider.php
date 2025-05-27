@@ -1,18 +1,18 @@
 <?php
 
-namespace Brnysn\LaravelH5P;
+namespace Iamtinhr\LaravelH5P;
 
-use Brnysn\LaravelH5P\Commands\H5PSeedCommand;
-use Brnysn\LaravelH5P\Commands\StorageH5PLinkCommand;
-use Brnysn\LaravelH5P\Enums\ConfigEnum;
-use Brnysn\LaravelH5P\Repositories\Contracts\H5PContentRepositoryContract;
-use Brnysn\LaravelH5P\Repositories\H5PContentRepository;
-use Brnysn\LaravelH5P\Repositories\H5PEditorAjaxRepository;
-use Brnysn\LaravelH5P\Repositories\H5PEditorStorageRepository;
-use Brnysn\LaravelH5P\Repositories\H5PFileStorageRepository;
-use Brnysn\LaravelH5P\Repositories\H5PRepository;
-use Brnysn\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
-use Brnysn\LaravelH5P\Services\HeadlessH5PService;
+use Iamtinhr\LaravelH5P\Commands\H5PSeedCommand;
+use Iamtinhr\LaravelH5P\Commands\StorageH5PLinkCommand;
+use Iamtinhr\LaravelH5P\Enums\ConfigEnum;
+use Iamtinhr\LaravelH5P\Repositories\Contracts\H5PContentRepositoryContract;
+use Iamtinhr\LaravelH5P\Repositories\H5PContentRepository;
+use Iamtinhr\LaravelH5P\Repositories\H5PEditorAjaxRepository;
+use Iamtinhr\LaravelH5P\Repositories\H5PEditorStorageRepository;
+use Iamtinhr\LaravelH5P\Repositories\H5PFileStorageRepository;
+use Iamtinhr\LaravelH5P\Repositories\H5PRepository;
+use Iamtinhr\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
+use Iamtinhr\LaravelH5P\Services\HeadlessH5PService;
 use H5PContentValidator;
 use H5PCore;
 use H5peditor;

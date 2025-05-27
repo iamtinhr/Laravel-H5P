@@ -1,11 +1,11 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Http\Controllers;
+namespace Iamtinhr\LaravelH5P\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Brnysn\LaravelH5P\Http\Controllers\Swagger\EditorApiSwagger;
-use Brnysn\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
+use Iamtinhr\LaravelH5P\Http\Controllers\Swagger\EditorApiSwagger;
+use Iamtinhr\LaravelH5P\Services\Contracts\HeadlessH5PServiceContract;
 use Exception;
 
 class EditorApiController extends BaseController implements EditorApiSwagger

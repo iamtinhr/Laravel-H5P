@@ -1,16 +1,16 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Http\Controllers\Swagger;
+namespace Iamtinhr\LaravelH5P\Http\Controllers\Swagger;
 
-use Brnysn\LaravelH5P\Http\Requests\LibraryDeleteRequest;
-use Brnysn\LaravelH5P\Http\Requests\LibraryInstallRequest;
-use Brnysn\LaravelH5P\Http\Requests\LibraryListRequest;
-use Brnysn\LaravelH5P\Http\Requests\LibraryUploadRequest;
-use Brnysn\LaravelH5P\Http\Requests\LibraryFilterRequest;
+use Iamtinhr\LaravelH5P\Http\Requests\LibraryDeleteRequest;
+use Iamtinhr\LaravelH5P\Http\Requests\LibraryInstallRequest;
+use Iamtinhr\LaravelH5P\Http\Requests\LibraryListRequest;
+use Iamtinhr\LaravelH5P\Http\Requests\LibraryUploadRequest;
+use Iamtinhr\LaravelH5P\Http\Requests\LibraryFilterRequest;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
-use Brnysn\LaravelH5P\Http\Requests\LibraryStoreRequest;
+use Iamtinhr\LaravelH5P\Http\Requests\LibraryStoreRequest;
 
 interface LibraryApiSwagger
 {

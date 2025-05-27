@@ -1,6 +1,6 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Enums;
+namespace Iamtinhr\LaravelH5P\Enums;
 
 class H5PPermissionsEnum extends BasicEnum
 {

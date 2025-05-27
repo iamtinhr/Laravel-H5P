@@ -1,6 +1,6 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Dtos\Contracts;
+namespace Iamtinhr\LaravelH5P\Dtos\Contracts;
 
 /**
  * Interface CompareDtoContract

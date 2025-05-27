@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Brnysn\LaravelH5P\Repositories\Criteria\Primitives;
+namespace Iamtinhr\LaravelH5P\Repositories\Criteria\Primitives;
 
-use Brnysn\LaravelH5P\Repositories\Criteria\Criterion;
+use Iamtinhr\LaravelH5P\Repositories\Criteria\Criterion;
 use Illuminate\Database\Eloquent\Builder;
 
 class LikeCriterion extends Criterion

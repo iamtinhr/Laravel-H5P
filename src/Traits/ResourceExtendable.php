@@ -1,6 +1,6 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Traits;
+namespace Iamtinhr\LaravelH5P\Traits;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

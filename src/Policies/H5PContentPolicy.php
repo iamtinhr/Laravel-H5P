@@ -1,9 +1,9 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Policies;
+namespace Iamtinhr\LaravelH5P\Policies;
 
-use Brnysn\LaravelH5P\Enums\H5PPermissionsEnum;
-use Brnysn\LaravelH5P\Models\H5PContent;
+use Iamtinhr\LaravelH5P\Enums\H5PPermissionsEnum;
+use Iamtinhr\LaravelH5P\Models\H5PContent;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class H5PContentPolicy

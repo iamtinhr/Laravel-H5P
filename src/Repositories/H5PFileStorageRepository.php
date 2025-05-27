@@ -1,6 +1,6 @@
 <?php
 
-namespace Brnysn\LaravelH5P\Repositories;
+namespace Iamtinhr\LaravelH5P\Repositories;
 
 use H5PFileStorage;
 use H5PCore;

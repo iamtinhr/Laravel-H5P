@@ -17,27 +17,27 @@
     },
     "autoload": {
         "psr-4": {
-            "Brnysn\\LaravelH5P\\": "src",
-            "Brnysn\\LaravelH5P\\Database\\Factories\\": "database/factories",
-            "Brnysn\\LaravelH5P\\Database\\Seeders\\": "database/seeders"
+            "Iamtinhr\\LaravelH5P\\": "src",
+            "Iamtinhr\\LaravelH5P\\Database\\Factories\\": "database/factories",
+            "Iamtinhr\\LaravelH5P\\Database\\Seeders\\": "database/seeders"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Brnysn\\LaravelH5P\\Tests\\": "tests"
+            "Iamtinhr\\LaravelH5P\\Tests\\": "tests"
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Yasin Baran",
-            "email": "brnysn@gmail.com"
+            "name": "Nguyen Tinh",
+            "email": "iamtinhr.contact@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Brnysn\\LaravelH5P\\HeadlessH5PServiceProvider"
+                "Iamtinhr\\LaravelH5P\\HeadlessH5PServiceProvider"
             ]
         }
     },
