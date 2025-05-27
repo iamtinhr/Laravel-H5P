@@ -30,6 +30,10 @@ Route::group(['middleware' => ['auth:api', 'api', H5PLangMiddleware::class], 'pr
 
     Route::group(['prefix' => 'hh5p'], function () {
         Route::get('content/{uuid}', [ContentApiController::class, 'frontShow'])->name('hh5p.content.show')->withoutMiddleware('auth:api');
+
+        Route::get('/', function () {
+            return 'Hello World';
+        })->name('hh5p.index'); // DO not remove this is needed as prefix for editor ajax calls
     });
 });
 
