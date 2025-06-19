@@ -1,11 +1,11 @@
 {
-    "name": "brnysn/laravel-h5p",
+    "name": "tinhr/laravel-h5p",
     "description": "H5P integration for Laravel without any additional dependencies.",
     "type": "package",
     "require": {
         "php": ">=7.4",
         "bensampo/laravel-enum": ">=2.0",
-        "laravel/framework": "^8|^9",
+        "laravel/framework": ">=8",
         "h5p/h5p-core": "^1|dev-master",
         "h5p/h5p-editor": "^1|dev-master"
     },
